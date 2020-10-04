@@ -1,0 +1,70 @@
+/* 3 TIPOS DE SELETORES
+TAG --> div{} formatar todas as tags
+ID --> #conteudo{} formatar o elemento que possui ID, recomento o ID ser único no HTML 
+CLASSE --> .lugar {} formatar todos os elementos aondea classe foi aplicada
+*/
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #5cdb95;
+}
+main{
+    width: 960px;
+    margin: 0 auto ;  
+}
+h1 a{
+    color: #edf5e1;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: #5cdb95;
+    background: #edf5e1;
+}
+article{
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+}
+article h2{
+    border-bottom: 1px dashed #05386b;
+    margin: 0;
+}
+article a{
+    color: #05386b;
+    font-weight: bold;
+}
+article img{
+    border: 1px solid #05386b;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+section{
+    float: left;
+    width: 660px;
+}
+aside{
+    background: #8ee4af;
+    border: 1px solid #379683;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}
+aside h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+aside ol{
+    font-size: 12px;
+    list-style: circle;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+}

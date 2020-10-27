@@ -1,0 +1,109 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 980px;
+    background: url(fundo.jpg);
+}
+
+header {
+    background: #b22d00;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+header .logo-direito {
+    margin: 30px 20px 0 0;
+    font-size: 1.4em;
+}
+
+nav {
+    background: #d9a300;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+main {
+    background: white;
+    padding: 20px;
+}
+
+/*AQUI COMEÇA O CSS DA TERCEIRA PARTE DO SITE*/
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principal .mensagem {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+.principal .endereco {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.botao button {
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    background: gray;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}

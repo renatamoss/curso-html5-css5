@@ -1,0 +1,121 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 980px;
+    background: url(fundo.jpg);
+}
+
+header {
+    background: #b22d00;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+header .logo-direito {
+    margin: 30px 20px 0 0;
+    font-size: 1.4em;
+}
+
+nav {
+    background: #d9a300;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+main {
+    background: white;
+    padding: 20px;
+}
+
+/*CSS DA SEGUNDA PÁGINA */
+.nossahistoria-galeria {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nossahistoria-galeria .nossahistoria {
+    width: 50%;
+}
+
+.nossahistoria-galeria .nossahistoria p {
+    padding-top: 20px;
+}
+
+.nossahistoria-galeria .galeria {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.nossahistoria-galeria figure {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 0;
+
+}
+
+.missaoevisao-valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.missaoevisao-valores .missaoevisao {
+    width: 50%;
+}
+
+.missaoevisao-valores .missaoevisao p {
+    padding-top: 20px;
+}
+
+.missaoevisao-valores .valores {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.missaoevisao-valores .valores ul {
+    padding: 20px 0 0 0;
+}
+
+.missaoevisao-valores .valores li {
+    background: white;
+    list-style: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}

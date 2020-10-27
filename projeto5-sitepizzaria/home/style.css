@@ -1,0 +1,116 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 960px;
+    background: url(fundo.jpg);
+}
+
+header {
+    background: #b22d00;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+header .logo-direito {
+    margin: 30px 20px 0 0;
+    font-size: 1.4em;
+}
+
+nav {
+    background: #d9a300;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+main {
+    background: white;
+    padding: 20px;
+}
+
+main .figura-pizza {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+main .figura-pizza figcaption {
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+aside .nossos-sabores {
+    width: 50%;
+}
+
+aside .nossos-sabores .colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0 0;
+}
+
+aside .historia {
+    width: 50%;
+}
+
+aside .forno-texto {
+    background: white;
+    padding: 20px 20px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+aside .forno-texto img {
+    padding-right: 20px;
+}
+
+aside .forno-texto a {
+    color: #b22d00;
+    background: white;
+    text-decoration: none;
+    line-height: 3;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}

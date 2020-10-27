@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzaria</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2? family = PT + Sans & display = swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="logo-esquerdo">
+            <img src="logotipo-superpizza.fw.png" alt="Logo super pizza">
+        </section>
+
+        <section class="logo-direito">
+            <p>Disk entregas: <br>
+                (19)1234-5678</p>
+        </section>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../quemsomos/quemsomos.html">Quem Somos</a></li>
+            <li><a href="../contato/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!--AQUI COMEÇA A TERCEIRA PÁGINA DO SITE-->
+
+    <main>
+        <h1>Entre em contato</h1>
+        <hr>
+
+        <section class="principal">
+
+            <section class="mensagem">
+                <h2>Envie uma mensagem</h2>
+
+                <legend>Utilize o formulário de contato para enviar sua mensagem:</legend>
+
+                <form method="GET" action="#">
+                    <!--este formulário não tem nenhuma ação-->
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" size="40" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email" size="40" />
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea type="text" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui"
+                            rows="10" cols="62" maxlength="500"></textarea>
+                    </div>
+                    <div class="botao">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </section>
+
+            <section class="endereco">
+
+                <iframe
+                    src="
+                    https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3300126499603!2d-47.33128058591322!3d-22.75313098509016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1603757493344!5m2!1spt-BR!2sbr"
+                    width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+
+                <h2>Endereço</h2>
+                <p>Rua: Teste, 123 - Bairro Sede - Americana - SP</p>
+
+                <h2>Email</h2>
+                <a href="mailto:contato@superpizza.com.br">contato@superpizza.com.br</a>
+
+                <h2>Telefone</h2>
+                <p>(19) 1234-5678</p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>Curso HTML5 e CSS3 2020 - Aluna Renata Moss.</footer>
+
+</body>
+
+</html>

@@ -7,6 +7,7 @@ Tecnologias estudadas:
  - HTML5
  - CSS3
 
-https://renatamoss.github.io/curso-html5-css3/projeto3-siteturismosjc/index.html </br>
-https://renatamoss.github.io/curso-html5-css3/projeto5-sitepizzaria/home/home.html </br>
-https://renatamoss.github.io/curso-html5-css3/projeto2-sitelojabolo/index.html
+### Cursos:
+* https://www.alura.com.br/
+* https://web.digitalinnovation.one/home
+* https://www.sp.senac.br/cursos-livres/tecnologia-da-informacao/criacao-para-web/desenvolvimento-web

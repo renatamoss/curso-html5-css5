@@ -1,0 +1,92 @@
+body {
+	overflow-x: hidden; /*corta texto mobile, não clocar scroll*/
+}
+
+.input {
+	outline: none; /*tirar o foco do input (caixa) VISIBLE / AUTO / SCROLL / HIDDEN*/
+	}
+
+/*centralizar um elemento no main, body*/
+.cadastro-cabecalho {
+	height: 100%;
+	max-width: 14rem;
+	margin: 0 auto;
+}
+
+/*centralizar um botão no form*/
+.botao__cadastrar {
+	display: block;
+	margin: 1rem auto;
+}
+
+/*hover opacity: .8*/
+.botao__cadastrar {
+transition: all 0.3s ease; 
+}
+
+/*ocultar um elemento*/
+.cadastro-cabecalho__titulo {
+	display: none;
+	opacity: 0;
+	line-height: 0;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px) {
+	.botao__cadastrar {
+		font-size: 1rem;
+		padding: .5rem;
+	}
+}
+
+/*-centralizando um elemento dentro da div*/
+.cadastro__concluido { /*pai*/
+	position: relative;
+}
+
+.cadastro__concluido-titulo {/*filho*/
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*fazendo uma imagem de concluído*/
+.concluido {
+	border: .1rem solid green;
+	border-radius: 50%;
+
+	height: 40px;
+	width: 40px;
+
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.concluido_ok {
+	border-bottom: .1rem solid green;
+	border-right: .2rem solid green;
+
+	margin-left: .8rem;
+	margin-top: .5rem;
+
+	height: 20px;
+	width: 10px;
+	transform: rotate(30deg);
+}
+
+/*TIRANDO O FOCO e AUTOCOMPLET DO IMPUT*/
+.input:focus {
+	background: rgb(255, 255, 238);
+	border: none;
+}
+
+.input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+
+
+

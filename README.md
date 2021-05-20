@@ -10,4 +10,4 @@ Tecnologias estudadas:
 ### Cursos:
 * https://www.alura.com.br/
 * https://web.digitalinnovation.one/home
-* https://www.sp.senac.br/cursos-livres/tecnologia-da-informacao/criacao-para-web/desenvolvimento-web
+* https://www.sp.senac.br/cursos-livres/tecnologia-da-informacao/criacao-para-web/desenvolvimento-web 
